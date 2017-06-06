@@ -1,0 +1,41 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Francois One', sans-serif;
+}
+
+.thin {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-wrapper {
+  border-bottom: 2px solid black;
+}
+
+#main, #about, #team, #work, #contact {
+  border-bottom: 2px solid black;
+}
+#mainContent, #aboutContent, #teamContent, #workContent, #contactContent {
+  position: sticky;
+  top: 40%;
+}
+#logo {
+  margin-top: 3%;
+  margin-left: 3%;
+  height: 64px;
+  width: auto;
+}
+#footerLogo {
+  width: 30%;
+  height: auto;
+}
+nav {
+  min-height: 5.45em;
+}
+
+#burgerBtn {
+  padding-top: 0.01em;
+  padding-right: 0.4em;
+}
